@@ -1,10 +1,10 @@
 ﻿namespace MY_CRM.Data.Interfaces;
 
-public interface IRepository<TEntity>
+public interface IRepository<T>
 {
-    List<TEntity> GetAll();
-    TEntity GetById(int id);
-    void Add(TEntity entity);
-    void Update(TEntity entity);
-    void Delete(int id);
+    Task CreateAsync(T entity);
+    Task UpdateAsync(T entity);
+    Task DeleteAsync(T entity);
+    Task<T?> GetByIdAsync(int id);
+    Task<List<T>> GetAllAsync();
 }
