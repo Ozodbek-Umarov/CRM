@@ -26,7 +26,6 @@
     <Folder Include="BLL\DTOs\SubjectDTOs\" />
     <Folder Include="BLL\DTOs\StudentDTOs\" />
     <Folder Include="BLL\DTOs\PaymentTableDTOs\" />
-    <Folder Include="BLL\DTOs\PaymentDTOs\" />
     <Folder Include="BLL\Interfaces\" />
     <Folder Include="BLL\Common\" />
     <Folder Include="BLL\Services\" />
